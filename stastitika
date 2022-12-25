@@ -1,0 +1,27 @@
+latihan ke 2 tugas ke 1
+
+y=rnorm(1000, 165, 15)
+View(y) 
+hist(y)
+y
+
+#latihan 2 Tugas 1 (2)
+t=rnorm(1000, 3.12, 0.25) 
+View(t)
+hist(t)
+t
+
+#Latihan 3 tugas 2 (1)
+pnorm(150,165,6)
+
+##Latihan 3 tugas 2 (2)
+1-pnorm(170,165,6)
+
+
+#Latihan 3 tugas 2 (3)
+pnorm(180, 165,6) - pnorm(150, 165,6) 
+dbinom(0,7,0.9875807)+dbinom(1,7,0.9875807)+dbinom(2,7,0.9875807) 
+pbinom(2, 7, 0.9875807)
+
+latihan 4 tugas 3 (1)
+pnorm(158, 175,30) - pnorm(125, 175,30)
